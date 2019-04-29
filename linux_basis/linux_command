@@ -1,1 +1,16 @@
-1
+ls --查看目录
+cd --切换目录
+mv -- 移动文件 或更改文件名
+cp -- 复制 或更改文件名
+touch --创建文件
+mkdir -- 创建目录
+find --  查找文件
+cat --  查看文件
+tail -- 查看文件后十行
+head ---查看文件前十行
+systemctl stop firewalld   --关闭防火墙
+systemctl disable firewalld  ---防火墙开机不启动
+setenforce 0  --禁selinux
+getenforce ---查看selinux
+systemctl start firewalld  ---启动防火墙
+service start firewalld ---启动防火墙
