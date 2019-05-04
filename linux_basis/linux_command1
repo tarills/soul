@@ -14,3 +14,8 @@ setenforce 0  --禁selinux
 getenforce ---查看selinux
 systemctl start firewalld  ---启动防火墙
 service start firewalld ---启动防火墙
+pwd 显示当前目录
+startx 进入做面
+ shutdown -h now（立即关机）  
+ shutdown -r now （重启动计算机） 
+ reboot （重启计算机）
